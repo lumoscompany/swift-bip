@@ -1,0 +1,51 @@
+{
+  "originHash" : "d9676a6313a6f0859e1f2a36a9d34f72a9d55cd6acf07d87f6c4ae6ef7444bd8",
+  "pins" : [
+    {
+      "identity" : "bigint",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/attaswift/BigInt.git",
+      "state" : {
+        "revision" : "793a7fac0bfc318e85994bf6900652e827aef33e",
+        "version" : "5.4.1"
+      }
+    },
+    {
+      "identity" : "libkeccak.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lumoscompany/libkeccak.swift",
+      "state" : {
+        "revision" : "f850d610588d647504840e7d1839e9e80148dfb7",
+        "version" : "0.1.0"
+      }
+    },
+    {
+      "identity" : "libsecp256k1.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lumoscompany/libsecp256k1.swift",
+      "state" : {
+        "revision" : "02a9012012fdfc2aab3895a1f0d170ef258026e8",
+        "version" : "0.1.0"
+      }
+    },
+    {
+      "identity" : "swift-crypto",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-crypto.git",
+      "state" : {
+        "revision" : "ffca28be3c9c6a86a579949d23f68818a4b9b5d8",
+        "version" : "3.8.0"
+      }
+    },
+    {
+      "identity" : "swift-essentials",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lumoscompany/swift-essentials",
+      "state" : {
+        "revision" : "140aac72de900b1d43eb3640600c9e3ebfa4db27",
+        "version" : "0.0.13"
+      }
+    }
+  ],
+  "version" : 3
+}
