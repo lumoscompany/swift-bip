@@ -19,7 +19,7 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-crypto.git", .upToNextMajor(from: "3.8.0")),
         .package(
             url: "https://github.com/lumoscompany/swift-essentials",
-            .upToNextMajor(from: "0.0.13")
+            .upToNextMajor(from: "0.0.18")
         ),
     ],
     targets: [
