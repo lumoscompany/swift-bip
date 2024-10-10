@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/attaswift/BigInt.git", from: "5.4.1"),
-        .package(url: "https://github.com/lumoscompany/libkeccak.swift", from: "0.1.0"),
+        .package(url: "https://github.com/lumoscompany/libkeccak.swift", from: "0.1.1"),
         .package(url: "https://github.com/lumoscompany/libsecp256k1.swift", from: "0.1.0"),
         .package(url: "https://github.com/apple/swift-crypto.git", .upToNextMajor(from: "3.8.0")),
         .package(

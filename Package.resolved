@@ -1,5 +1,5 @@
 {
-  "originHash" : "52fa9a9de07781be777196826776fce6e1fca90c52135a48e5ff24ce3b677c9b",
+  "originHash" : "ed8d3655c9611c95a4e93a090a2980b19787fd418c179c7668d123810dc2009e",
   "pins" : [
     {
       "identity" : "bigint",
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/lumoscompany/libkeccak.swift",
       "state" : {
-        "revision" : "f850d610588d647504840e7d1839e9e80148dfb7",
-        "version" : "0.1.0"
+        "revision" : "a393f0317202b303b37978d4ef62b5149b747b2c",
+        "version" : "0.1.1"
       }
     },
     {
