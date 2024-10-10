@@ -20,20 +20,20 @@ public struct AES {
     public func encrypt(_ data: Data) -> Data? {
         try? key.perform(with: {
             let key = SymmetricKey(data: $0)
-            return try CryptoKit.AES.GCM.seal(data, using: key).combined
+            return try Crypto.AES.GCM.seal(data, using: key).combined
         })
     }
 
     /// - parameter data: Data to decrypt
     public func decrypt(_ data: Data) -> Data? {
-        guard let box = try? CryptoKit.AES.GCM.SealedBox(combined: data)
+        guard let box = try? Crypto.AES.GCM.SealedBox(combined: data)
         else {
             return nil
         }
 
         return try? key.perform(with: {
             let key = SymmetricKey(data: $0)
-            return try CryptoKit.AES.GCM.open(box, using: key)
+            return try Crypto.AES.GCM.open(box, using: key)
         })
     }
 
