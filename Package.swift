@@ -6,8 +6,10 @@ import PackageDescription
 let package = Package(
     name: "swift-bip",
     platforms: [
-        .macOS("13.3"),
-        .iOS("16.4"),
+        .macOS(.v10_15),
+        .iOS(.v13),
+        .watchOS(.v6),
+        .tvOS(.v13),
     ],
     products: [
         .library(name: "BIP", targets: ["BIP"]),
@@ -31,7 +33,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/unistash-io/swift-essentials.git",
-            .upToNextMajor(from: "0.0.1")
+            .upToNextMajor(from: "0.0.4")
         ),
     ],
     targets: [
